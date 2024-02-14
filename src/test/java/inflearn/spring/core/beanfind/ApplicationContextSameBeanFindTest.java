@@ -1,6 +1,5 @@
 package inflearn.spring.core.beanfind;
 
-import inflearn.spring.core.AppConfig;
 import inflearn.spring.core.member.repository.MemberRepository;
 import inflearn.spring.core.member.repository.MemoryMemberRepository;
 import org.junit.jupiter.api.DisplayName;

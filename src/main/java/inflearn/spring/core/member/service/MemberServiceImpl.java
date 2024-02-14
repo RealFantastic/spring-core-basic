@@ -2,7 +2,6 @@ package inflearn.spring.core.member.service;
 
 import inflearn.spring.core.member.Member;
 import inflearn.spring.core.member.repository.MemberRepository;
-import inflearn.spring.core.member.repository.MemoryMemberRepository;
 
 public class MemberServiceImpl implements MemberService{
 //    private final MemberRepository memberRepository = new MemoryMemberRepository();

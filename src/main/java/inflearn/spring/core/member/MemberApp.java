@@ -2,7 +2,6 @@ package inflearn.spring.core.member;
 
 import inflearn.spring.core.AppConfig;
 import inflearn.spring.core.member.service.MemberService;
-import inflearn.spring.core.member.service.MemberServiceImpl;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

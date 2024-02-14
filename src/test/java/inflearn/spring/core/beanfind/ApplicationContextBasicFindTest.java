@@ -3,7 +3,6 @@ package inflearn.spring.core.beanfind;
 import inflearn.spring.core.AppConfig;
 import inflearn.spring.core.member.service.MemberService;
 import inflearn.spring.core.member.service.MemberServiceImpl;
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.NoSuchBeanDefinitionException;

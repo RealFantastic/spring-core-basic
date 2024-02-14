@@ -1,6 +1,5 @@
 package inflearn.spring.core.beanfind;
 
-import inflearn.spring.core.AppConfig;
 import inflearn.spring.core.discount.DiscountPolicy;
 import inflearn.spring.core.discount.FixDiscountPolicy;
 import inflearn.spring.core.discount.RateDiscountPolicy;

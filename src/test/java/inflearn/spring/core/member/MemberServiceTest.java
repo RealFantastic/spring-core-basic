@@ -2,7 +2,6 @@ package inflearn.spring.core.member;
 
 import inflearn.spring.core.AppConfig;
 import inflearn.spring.core.member.service.MemberService;
-import inflearn.spring.core.member.service.MemberServiceImpl;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
