@@ -7,7 +7,10 @@ import inflearn.spring.core.member.Member;
 import inflearn.spring.core.member.repository.MemberRepository;
 import inflearn.spring.core.member.repository.MemoryMemberRepository;
 import inflearn.spring.core.order.Order;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
+@Component
 public class OrderServiceImpl implements OrderService{
 //    private final MemberRepository memberRepository = new MemoryMemberRepository();
 //    private final DiscountPolicy discountPolicy = new FixDiscountPolicy();
@@ -17,7 +20,7 @@ public class OrderServiceImpl implements OrderService{
     //해당 객체의 생성은 외부의 AppConfig에서 담당하고, OrderService는 AppConfig에서 생성해준 객체만 주입 받으면 되기 때문.
     private final MemberRepository memberRepository;
     private final DiscountPolicy discountPolicy;
-
+    @Autowired
     public OrderServiceImpl(MemberRepository memberRepository, DiscountPolicy discountPolicy) {
         this.memberRepository = memberRepository;
         this.discountPolicy = discountPolicy;

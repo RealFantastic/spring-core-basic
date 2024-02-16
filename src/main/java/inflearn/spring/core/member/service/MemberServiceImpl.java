@@ -2,7 +2,10 @@ package inflearn.spring.core.member.service;
 
 import inflearn.spring.core.member.Member;
 import inflearn.spring.core.member.repository.MemberRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
+@Component
 public class MemberServiceImpl implements MemberService{
 //    private final MemberRepository memberRepository = new MemoryMemberRepository();
     /**
@@ -10,7 +13,7 @@ public class MemberServiceImpl implements MemberService{
      * MemberService는 MemberRepository가 메모리 저장인지 DB 저장인지 알 필요가 없다.
      */
     private final MemberRepository memberRepository;
-
+    @Autowired
     public MemberServiceImpl(MemberRepository memberRepository) {
         this.memberRepository = memberRepository;
     }
