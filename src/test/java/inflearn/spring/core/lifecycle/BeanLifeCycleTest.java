@@ -46,7 +46,7 @@ public class BeanLifeCycleTest {
     @Configuration
     static class LifeCycleConfig {
         //NetworkClient Bean 등록
-        @Bean
+        @Bean/*(initMethod = "init", destroyMethod = "close")*/
         public NetworkClient networkClient() {
             NetworkClient networkClient = new NetworkClient();
             networkClient.setUrl("http://localhost:8080");
