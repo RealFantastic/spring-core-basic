@@ -44,5 +44,6 @@ public class NetworkClient implements InitializingBean, DisposableBean {
     //초기화, 소멸 interface의 단점
     //1. 두 interface는 스프링의 코드이기 때문에 내 코드가 스프링에 의존적으로 변함.
     //2. 내가 코드를 고칠 수 없는 외부라이브러리에는 적용하지 못함.
+    // 참고 : 해당 인터페이스는 스프링 초창기에 생성된 인터페이스로 현재는 거의 사용하지 않는다.
 
 }

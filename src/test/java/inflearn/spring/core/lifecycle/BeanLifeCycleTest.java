@@ -53,4 +53,10 @@ public class BeanLifeCycleTest {
             return networkClient;
         }
     }
+
+    /*빈 생명주기 콜백의 3가지 방법*/
+    /* 1. InitalizingBean, DisposableBean - Interface
+    *  2. 설정 정보에 초기화 메서드, 종료 메서드 지정
+    *  3. @PostConstruct, @PreDestroy 애노테이션 사용
+    * */
 }
