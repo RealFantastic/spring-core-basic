@@ -72,7 +72,7 @@ public class SingletonWithPrototypeTest1 {
         * - ObjectProvider : ObjectFactory 상속, 옵션, 스트림 처리 등 편의 기능 제공, 별도의 라이브러리 필요X, 스프링에 의존
         * */
 
-        /*<<<JSR-330 Provider>>>
+        /* <<<JSR-330 Provider>>>
         * - javax.inject.Provider
         * - JSR-330 자바 표준을 사용
         * - SpringBoot 3.x 버전에선 jakarta.inject.Provider 사용
